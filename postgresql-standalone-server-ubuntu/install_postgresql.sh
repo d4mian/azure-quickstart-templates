@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo locale-gen "en_US.UTF-8"
 sudo apt-get update 
 #install the necessary tools 
 sudo apt-get install gcc make libreadline6-dev zlib1g-dev -y
